@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Phrases</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .card {
+            width: 300px;
+            height: 200px;
+            perspective: 1000px;
+        }
+        .card-inner {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            box-shadow: 0 4px 8px a76a9c;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .card.is-flipped .card-inner {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        .card-front {
+            background-color: #A47DAB;
+            color: white;
+        }
+        .card-back {
+            background-color: #f9f9f9;
+            color: #333;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">TOUCH THE STRINGS</div>
+            <div class="card-back">ТОРКАТИСЯ СТРУН</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">FALL ASLEEP</div>
+            <div class="card-back">ЗАСНУТИ</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">CRAWL</div>
+            <div class="card-back">ПОВЗАТИ</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">SCREAM</div>
+            <div class="card-back">КРИЧАТИВІД ЖАХУ, ВЕРЕЩАТИ</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">YELL</div>
+            <div class="card-back">КРИЧАТИ, ВЕРЕЩАТИ(ВЕРЕСК)</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">THIEF</div>
+            <div class="card-back">КРАДІЙ</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">SHOUT</div>
+            <div class="card-back">ВИКРИКУВАТИ, ВИГУКУВАТИ, КРИЧАТИ</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">CHASE</div>
+            <div class="card-back">ГНАТИСЯ</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">REACH</div>
+            <div class="card-back">ДОСЯГНУТИ</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">ARRIVE</div>
+            <div class="card-back">ПРИБУТИ</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">LAND</div>
+            <div class="card-back">ПРИЗЕМЛИТИСЯ</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">BE AFRAID(OF)</div>
+            <div class="card-back">БОЯТИСЯ(КОГОСЬ, ЧОГОСЬ)</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">GRAB</div>
+            <div class="card-back">СХОПИТИ</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">CHOP</div>
+            <div class="card-back">РУБАТИ
+
+</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">SIDE</div>
+            <div class="card-back"> СТОРОНА</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">FAR AWAY</div>
+            <div class="card-back">ДАЛЕКО</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">SOMEWHERE</div>
+            <div class="card-back">ДЕСЬ</div>
+        </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">WHISPER</div>
+            <div class="card-back">ШЕПОТІТИ</div>
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">TINY DROPS</div>
+            <div class="card-back">КРИХІТНІ КАПЛІ</div>
+        </div>
+    </div>
+  
+      <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">GUILTY</div>
+            <div class="card-back">ВИННИЙ/ВИНУВАТИЙ</div>
+        </div>
+    </div>
+
+        <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">FPOLOGIZE FOR</div>
+            <div class="card-back">ВИБАЧАТИСЯ ЗА..</div>
+        </div>
+    </div>
+        <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">GREEDY</div>
+            <div class="card-back">ЖАДІБНИЙ</div>
+        </div>
+    </div>
+
+        <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">FIND</div>
+            <div class="card-back">ЗНАЙТИ</div>
+        </div>
+    </div>
+
+        <div class="card" onclick="this.classList.toggle('is-flipped');">
+        <div class="card-inner">
+            <div class="card-front">THUNDERSTROM</div>
+            <div class="card-back">ГРОЗА</div>
+        </div>
+    </div>
+
+
+</body>
+</html>
